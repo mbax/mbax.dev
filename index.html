@@ -108,14 +108,16 @@
     <!-- /.container -->
   </footer>
 
-  <!-- year script -->
-  <script>
-    $("#year").text(new Date().getFullYear());
-  </script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- year script -->
+  <script>
+    $(function() {
+      $("#year").text(new Date().getFullYear());
+    });
+  </script>
 </body>
 
 </html>
